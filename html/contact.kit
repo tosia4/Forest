@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa825b8d23.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/hamburger.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <title>Forest group</title>
+</head>
+<body>
+    <!--@include 'nav.kit'-->
+    
+    <header class="header">
+        <div class="header__text">
+            <h1>Skontaktuj się z nami!</h1>
+        </div>
+        <div class="header__img-contact">
+            <div class="header__shadow"></div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section class="contact section-padding" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="section-title">Kontakt</h2>
+            <form class="contact__form">
+                <div class="contact__form-box">
+                    <label for="name">Twoje imię:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="contact__form-box">
+                    <label for="mail">Twój email:</label>
+                    <input type="text" id="mail">
+                </div>
+                <div class="contact__form-box">
+                    <label for="msg">Wiadomość:</label>
+                    <textarea id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="contact__form-btn">Wyślij</button>
+            </form>
+        </section>
+        <section class="location section-padding wrapper" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="section-title">Nasza lokalizacja</h2>
+            <iframe src="https://maps.google.com/maps?q=McDonald's%20%20ul.%20Jasnog%C3%B3rskiej%202&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"  marginheight="0" marginwidth="0"></iframe>
+        </section>
+    </div>
+    <!--@include 'footer.kit'-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
