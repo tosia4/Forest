@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fa825b8d23.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/hamburger.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <title>Forest group</title>
+</head>
+<body>
+    <button class="hamburger hamburger--spin" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+</button>
+<p class="company-name-mobile"><i class="fa-solid fa-tree"></i> Forest</p>
+<nav class="nav nav-mobile">
+    <a class="nav-mobile__link" href="index.html">Home</a>
+    <a class="nav-mobile__link" href="index.html#aboutus">O nas</a>
+    <a class="nav-mobile__link" href="index.html#offers">Oferta</a>
+    <a class="nav-mobile__link" href="contact.html">Kontakt</a>
+</nav>
+<nav class="nav nav-desktop">
+    <p class="company-name"><i class="fa-solid fa-tree"></i> Forest</p>
+    <div class="nav__links">
+        <a class="nav__link home" href="index.html">Home</a>
+        <a class="nav__link aboutus" href="index.html#aboutus">O nas</a>
+        <a class="nav__link offers" href="index.html#offers">Oferta</a>
+        <a class="nav__link contact" href="contact.html">Kontakt</a>
+    </div>
+</nav>
+    
+    <header class="header">
+        <div class="header__text">
+            <h1>Skontaktuj się z nami!</h1>
+        </div>
+        <div class="header__img-contact">
+            <div class="header__shadow"></div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section class="contact section-padding" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="section-title">Kontakt</h2>
+            <form class="contact__form">
+                <div class="contact__form-box">
+                    <label for="name">Twoje imię:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="contact__form-box">
+                    <label for="mail">Twój email:</label>
+                    <input type="text" id="mail">
+                </div>
+                <div class="contact__form-box">
+                    <label for="msg">Wiadomość:</label>
+                    <textarea id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="contact__form-btn">Wyślij</button>
+            </form>
+        </section>
+        <section class="location section-padding wrapper" data-aos="fade-up" data-aos-duration="3000">
+            <h2 class="section-title">Nasza lokalizacja</h2>
+            <iframe src="https://maps.google.com/maps?q=McDonald's%20%20ul.%20Jasnog%C3%B3rskiej%202&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"  marginheight="0" marginwidth="0"></iframe>
+        </section>
+    </div>
+    <footer class="footer">
+    <div class="footer__desktop">
+        <p class="company-name"><i class="fa-solid fa-tree"></i> Forest</p>
+            <div class="footer__box">
+
+                <div class="footer__links">
+                    <h3 class="footer__box-title">O nas</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Historia</a></li>
+                        <li class="footer__box-list-item"><a href="#">Parki</a></li>
+                        <li class="footer__box-list-item"><a href="#">Opinie</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__box-title">Nasza firma</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Praca</a></li>
+                        <li class="footer__box-list-item"><a href="#">Kadry</a></li>
+                        <li class="footer__box-list-item"><a href="#">Zespół</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__box-title">Dokumenty</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Wnioski</a></li>
+                        <li class="footer__box-list-item"><a href="#">Rezerwacje</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+    </div>
+    
+    <div class="footer__bottom">
+        <p class="footer__bottom-text">&copy; <span class="footer__year"></span> Forest Group Company Ltd.</p>
+    </div>
+</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
